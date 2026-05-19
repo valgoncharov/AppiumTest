@@ -1,6 +1,7 @@
 plugins {
     id("java-library")
     id("org.jetbrains.kotlin.jvm")
+    id("io.qameta.allure") version "2.12.1"
 }
 
 java {
@@ -37,4 +38,13 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
+}
+
+allure {
+    version.set("2.25.0")
+    autoconfigure.set(true)
+    attachment.set(true)
+    resultsDir.set(file("allure-results"))
+    reportDir.set(file("allure-report"))
+    cleanResultsDir.set(false)
 }
