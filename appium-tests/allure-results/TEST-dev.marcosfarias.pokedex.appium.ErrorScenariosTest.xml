@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.marcosfarias.pokedex.appium.ErrorScenariosTest" tests="4" skipped="0" failures="2" errors="0" timestamp="2026-05-19T17:54:55" hostname="MacBook-Pro-de-Apple.local" time="41.895">
+  <properties/>
+  <testcase name="ОШИБКА: Placeholder должен содержать 'Find', а не 'Search'" classname="dev.marcosfarias.pokedex.appium.ErrorScenariosTest" time="0.19">
+    <failure message="java.lang.AssertionError: Placeholder должен содержать 'Find'" type="java.lang.AssertionError">java.lang.AssertionError: Placeholder должен содержать 'Find'
+	at dev.marcosfarias.pokedex.appium.ErrorScenariosTest.testWrongSearchPlaceholder(ErrorScenariosTest.kt:38)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <testcase name="ОШИБКА: Экран Покедекса не должен отображаться" classname="dev.marcosfarias.pokedex.appium.ErrorScenariosTest" time="20.721"/>
+  <testcase name="ОШИБКА: Speed Dial не должен отображаться" classname="dev.marcosfarias.pokedex.appium.ErrorScenariosTest" time="20.746"/>
+  <testcase name="Заголовок должен быть 'Pokedex'" classname="dev.marcosfarias.pokedex.appium.ErrorScenariosTest" time="0.16">
+    <failure message="java.lang.AssertionError: Заголовок должен быть 'Pokedex'" type="java.lang.AssertionError">java.lang.AssertionError: Заголовок должен быть 'Pokedex'
+	at dev.marcosfarias.pokedex.appium.ErrorScenariosTest.testCorrectTitleExpectedPokedex(ErrorScenariosTest.kt:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

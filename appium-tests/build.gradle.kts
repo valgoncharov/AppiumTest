@@ -1,7 +1,6 @@
 plugins {
     id("java-library")
     id("org.jetbrains.kotlin.jvm")
-    id("io.qameta.allure") version "2.12.1"
 }
 
 java {
@@ -24,6 +23,9 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.1")
 
+    // Allure
+    testImplementation("io.qameta.allure:allure-junit5:2.25.0")
+
     // Kotlin
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.22")
 
@@ -38,13 +40,4 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
-}
-
-allure {
-    version.set("2.25.0")
-    autoconfigure.set(true)
-    attachment.set(true)
-    resultsDir.set(file("allure-results"))
-    reportDir.set(file("allure-report"))
-    cleanResultsDir.set(false)
 }

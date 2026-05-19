@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.marcosfarias.pokedex.appium.PokedexScreenTest" tests="3" skipped="0" failures="3" errors="0" timestamp="2026-05-19T17:56:16" hostname="MacBook-Pro-de-Apple.local" time="62.079">
+  <properties/>
+  <testcase name="Список покемонов отображается" classname="dev.marcosfarias.pokedex.appium.PokedexScreenTest" time="20.663">
+    <failure message="java.lang.AssertionError: Список покемонов должен отображаться" type="java.lang.AssertionError">java.lang.AssertionError: Список покемонов должен отображаться
+	at dev.marcosfarias.pokedex.appium.PokedexScreenTest.testPokemonListIsDisplayed(PokedexScreenTest.kt:36)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <testcase name="Экран Покедекса отображается" classname="dev.marcosfarias.pokedex.appium.PokedexScreenTest" time="20.705">
+    <failure message="java.lang.AssertionError: Экран Покедекса должен отображаться" type="java.lang.AssertionError">java.lang.AssertionError: Экран Покедекса должен отображаться
+	at dev.marcosfarias.pokedex.appium.PokedexScreenTest.testPokedexScreenIsDisplayed(PokedexScreenTest.kt:24)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <testcase name="Speed Dial (FAB) отображается" classname="dev.marcosfarias.pokedex.appium.PokedexScreenTest" time="20.673">
+    <failure message="java.lang.AssertionError: Speed Dial должен отображаться" type="java.lang.AssertionError">java.lang.AssertionError: Speed Dial должен отображаться
+	at dev.marcosfarias.pokedex.appium.PokedexScreenTest.testSpeedDialIsDisplayed(PokedexScreenTest.kt:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

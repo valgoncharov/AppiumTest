@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.marcosfarias.pokedex.appium.HomeScreenTest" tests="5" skipped="0" failures="1" errors="0" timestamp="2026-05-19T17:55:39" hostname="MacBook-Pro-de-Apple.local" time="0.523">
+  <properties/>
+  <testcase name="Заголовок Pokedex присутствует" classname="dev.marcosfarias.pokedex.appium.HomeScreenTest" time="0.106">
+    <failure message="java.lang.AssertionError: Заголовок должен быть 'Pokedex'" type="java.lang.AssertionError">java.lang.AssertionError: Заголовок должен быть 'Pokedex'
+	at dev.marcosfarias.pokedex.appium.HomeScreenTest.testPokedexTitleIsDisplayed(HomeScreenTest.kt:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+</failure>
+  </testcase>
+  <testcase name="Список новостей отображается" classname="dev.marcosfarias.pokedex.appium.HomeScreenTest" time="0.116"/>
+  <testcase name="Список меню отображается" classname="dev.marcosfarias.pokedex.appium.HomeScreenTest" time="0.097"/>
+  <testcase name="Placeholder поиска корректный" classname="dev.marcosfarias.pokedex.appium.HomeScreenTest" time="0.084"/>
+  <testcase name="Главный экран отображается корректно" classname="dev.marcosfarias.pokedex.appium.HomeScreenTest" time="0.111"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
